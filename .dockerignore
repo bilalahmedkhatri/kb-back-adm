@@ -1,0 +1,52 @@
+# Version control & CI
+.git
+.github
+
+# Virtual environments & Dependencies
+.venv/
+venv/
+env/
+node_modules/
+frontend/node_modules/
+
+# Python caches & Test outputs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Frontend builds, caches & test reports
+dist/
+frontend/dist/
+.tanstack/
+frontend/.tanstack/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+*.log
+
+# Uploaded test media
+backend/app/static/uploads/*
+!backend/app/static/uploads/.gitkeep
+
+# IDEs & AI assistant tools
+.vscode/
+.idea/
+.ai/
+.claude/
+.commandcode/
+.neon/
+.agents/
+.copier/
+
+# Documentation & Misc
+*.pdf
+.DS_Store
+Thumbs.db
+

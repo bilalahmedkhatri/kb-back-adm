@@ -1,0 +1,74 @@
+# Environment & secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+*.local
+
+# Dependencies & Environments
+node_modules/
+frontend/node_modules/
+.venv/
+venv/
+env/
+
+# Frontend Caches & Framework outputs
+dist/
+dist-ssr/
+.tanstack/
+frontend/
+
+# Frontend & Package Manager Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Playwright & Test Results
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Docker & Traefik (IMPORTANT)
+acme.json
+*/acme.json
+compose*.local.yml
+docker-compose*.local.yml
+docker-compose.override.yml
+.docker/
+postgres_data/
+pgdata/
+db-data/
+
+# Uploaded test media (Images uploaded during local/docker testing)
+backend/app/static/uploads/*
+!backend/app/static/uploads/.gitkeep
+
+# IDE & AI Assistant configs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.ai/
+.claude/
+.commandcode/
+.neon/
+.agents/
+.copier/
+
+# Local documents / PDFs (optional)
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
